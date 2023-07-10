@@ -1,0 +1,163 @@
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 30px 100px 0px;
+    margin: 0px;
+}
+.head-box{
+    max-width: 500px;
+    padding-left: 100px;
+    font-weight: 700px;
+    font-size: 20px;
+    
+}
+.img{
+    padding-right: 100px;
+}
+.head-title{
+    font-weight: 800px;
+    margin-bottom: 0px;
+    
+}
+.head-details{
+    font-weight:  400px; 
+    margin-top: 10px;
+
+}
+.img{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.button{
+    background-color: rgb(232, 14, 14);
+    border: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+/* section styles  */
+
+.section-one{
+    
+    align-items: center;
+    justify-content: center;
+}
+.sec-about{
+    
+    text-align: center;
+   
+}
+.sec-title{
+    font-weight: 600px;
+    margin:50px 0px 0px;
+    padding-top: 20px;
+}
+.sec-discribe{
+    margin: 0px 0px 40px;
+    padding-top: 0px;
+    font-weight: 400;
+    
+}
+.flowers{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    
+    
+}
+.img-one{
+   
+    background-color: aquamarine;
+   
+    text-align: center;
+    align-content: center;
+    height: 400px;
+    width: 300px;
+    border-radius: 200px 200px 0px 0px;
+    padding: 100px 50px 0px;
+}
+.img-two{
+    text-align: center;
+   
+    background-color: rgb(131, 127, 255);
+    margin: 0px 50px;
+    align-content: center;
+    height: 400px;
+    width: 300px;
+    border-radius: 200px 200px 0px 0px;
+    padding: 100px 50px 0px;
+}
+.img-three{
+    text-align: center;
+   
+    background-color: rgb(3, 48, 33);
+    height: 400px;
+    width: 300px;
+    border-radius: 200px 200px 0px 0px;
+    padding: 100px 50px 0px;
+}
+.atribute{
+    font-weight: 700px;
+    color: black;
+}
+
+/*  section two styles */
+
+.section-two{
+
+    display: flex;
+   
+    background-color: whitesmoke;
+    justify-content:center;
+    
+    margin: 40px 0px;
+    align-items: center;
+    text-align: center;
+
+}
+.sec-two-title{
+    font-weight: 600px;
+    font-size: 50px;
+    padding-right: 200px;
+    text-align: center;
+}
+.span{
+    color: rgb(232, 14, 14);
+}
+.sec-two-dis{
+    font-size: 25px;
+   
+}
+
+/* section three styles */
+
+.sec-three{
+    text-align: center;
+    align-items: center;
+}
+.instagram{
+    font-size: 40px;
+    font-weight: 600px;
+    margin: 10px 0px 5px;
+}
+.insta-info{
+    font-size: 30px;
+    margin-top: 0px;
+}
+.sec-boxes{
+    height: 50px;
+    
+    margin:20px ;
+    
+}
+/*  footer styles */
