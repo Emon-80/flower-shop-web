@@ -207,4 +207,18 @@
 .shop{
     color: antiquewhite;
 }
+/*  special content styles */
+.special{
+    position:relative ;
+    text-align: center;
+    margin: 100px 0px;
+}
+.importance{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 47%;
+    font-size: x-large;
+    color: brown;
+}
 
