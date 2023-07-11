@@ -4,20 +4,21 @@
 .head{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: aliceblue;
+    justify-content: center;
+    background-color: rgb(192, 211, 229);
     padding: 30px 100px 0px;
     margin: 0px;
 }
 .head-box{
-    max-width: 500px;
-    padding-left: 100px;
+    max-width: 600px;
+    padding-left: 50px;
     font-weight: 700px;
     font-size: 20px;
     
 }
 .img{
-    padding-right: 100px;
+    padding: 30px 100px 0px 40px;
+    margin-left: 20px;
 }
 .head-title{
     font-weight: 800px;
@@ -72,6 +73,7 @@
     justify-content: center;
     text-align: center;
     align-content: center;
+    width: auto;
     
     
 }
@@ -81,8 +83,8 @@
    
     text-align: center;
     align-content: center;
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     border-radius: 200px 200px 0px 0px;
     padding: 100px 50px 0px;
 }
@@ -92,8 +94,8 @@
     background-color: rgb(131, 127, 255);
     margin: 0px 50px;
     align-content: center;
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     border-radius: 200px 200px 0px 0px;
     padding: 100px 50px 0px;
 }
@@ -101,8 +103,8 @@
     text-align: center;
    
     background-color: rgb(3, 48, 33);
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     border-radius: 200px 200px 0px 0px;
     padding: 100px 50px 0px;
 }
@@ -116,27 +118,35 @@
 .section-two{
 
     display: flex;
-   
     background-color: whitesmoke;
     justify-content:center;
     
     margin: 40px 0px;
     align-items: center;
     text-align: center;
+    align-content: center;
 
+}
+.sec-two-box{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    
 }
 .sec-two-title{
     font-weight: 600px;
     font-size: 50px;
-    padding-right: 200px;
+    
     text-align: center;
 }
 .span{
     color: rgb(232, 14, 14);
 }
 .sec-two-dis{
+    align-items: center;
     font-size: 25px;
-   
+    width: 700px;
+   text-align: center ;
 }
 
 /* section three styles */
@@ -153,11 +163,48 @@
 .insta-info{
     font-size: 30px;
     margin-top: 0px;
+    text-align: center;
 }
 .sec-boxes{
-    height: 50px;
-    
-    margin:20px ;
-    
+    text-align: center;
 }
+
+/*  sec-four styles */
+
+.container{
+    text-align: center;
+    position:relative ;
+    margin-top: 100px;
+}
+.sec-text-box{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 47%;
+    font-size: large;
+}
+.email-btn{
+   
+    border: none;
+    text-align: center;
+    margin-right: 20px;
+}
+
 /*  footer styles */
+
+.footer{
+    background-color: rgb(21, 18, 18);
+    margin-top: 200px;
+}
+.footer-container{
+    text-align: center;
+    padding: 50px 200px 50px;
+    color: antiquewhite;
+}
+.footer-title{
+    color: brown;
+}
+.shop{
+    color: antiquewhite;
+}
+
